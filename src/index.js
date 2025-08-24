@@ -9,6 +9,7 @@ function displayPoem(response) {
 
 function generatePoem(event) {
   event.preventDefault();
+  
   let instructionsInput = document.querySelector("#user-instructions");
   let apiKey = "2046c535afeb092fo82f1d306d8a2b2t";
   let context =
